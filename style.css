@@ -9,6 +9,7 @@
 .logoB{
     display: flex;
     justify-content: center;
+    cursor: grabbing;
 }
 .history>p{
     color: #BC8420;
@@ -25,12 +26,16 @@ h3{
 }
 h2{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 figcaption{
     text-align: center;
+    font-style: oblique;
+    color: #d9d9d9;
 }
 img:hover{
     opacity: 0.4;
+    cursor: grab;
 }
 .panini img{
     width: 95%;
