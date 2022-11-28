@@ -16,7 +16,7 @@ footer>div {
     padding-bottom: 1%;
 }
 
-h1 {
+footer h1 {
     margin: 10%;
     font-size: 200%;
     font-family: monospace;
@@ -29,14 +29,14 @@ h1 {
         1px 1px 5px #555;
 }
 
-form {
+footer form {
     font-family: monospace;
     display: flex;
     flex-direction: column;
    margin: 10%;
 }
 
-input{
+footer input{
     margin: 1%;
     border-radius: 20px;
     height: 20px;
@@ -47,7 +47,7 @@ input{
     border-radius: 15px;
 }
 
-button {
+footer button {
     font-family: monospace;
     background-color: rgb(66, 66, 241);
     font-size: large;
