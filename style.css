@@ -26,8 +26,51 @@ figcaption{
     text-align: center;
 }
 img:hover{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .panini img{
     width: 95%;
 }
+.resa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9;
+    height: 100%;
+}
+input{
+    background-color: #2d2d2d;
+    color: #BC8420;
+    border-radius: 6px 6px 6px 6px;
+}
+main{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (min-width:768px){
+    .burger{
+        display: flex;
+        flex-direction: row;
+        justify-content: ;
+    }
+    .burgertitre{
+        align-self: center;
+    }
+    .pizza{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .pizza img{
+        width: 110%;
+    }
+    .panini{
+        display: flex;
+        flex-direction: row;
+    }
+    .sushi{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+    
