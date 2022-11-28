@@ -50,7 +50,7 @@ main{
     .burger{
         display: flex;
         flex-direction: row;
-        justify-content: ;
+        text-align: center;
     }
     .burgertitre{
         align-self: center;
