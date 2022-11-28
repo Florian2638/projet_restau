@@ -6,6 +6,10 @@
 .presta>p{
     color: #BC8420;
 }
+.logoB{
+    display: flex;
+    justify-content: center;
+}
 .history>p{
     color: #BC8420;
 }
@@ -70,6 +74,9 @@ main{
     .sushi{
         display: flex;
         flex-direction: row;
+    }
+    .uno{
+        
     }
 
 }
