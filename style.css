@@ -1,10 +1,10 @@
-
 html,
 body {
-    height: 100%;
+    
     margin: 0
 }
-body{
+
+body {
     background-color: #a39e9e;
 }
 
@@ -63,9 +63,10 @@ footer {
 }
 
 @media screen and (min-width:768px) {
-    header{
+    header {
         height: 8%;
     }
+
     .nav {
         display: flex;
         flex-direction: row;
@@ -86,86 +87,202 @@ footer {
     }
 }
 
-.uno{
+.uno {
     background-color: #2d2d2d;
     display: flex;
     flex-direction: column;
 }
-.presta>p{
+
+.presta>p {
     color: #BC8420;
 }
-.logoB{
+
+.logoB {
     display: flex;
     justify-content: center;
     cursor: grabbing;
 }
-.history>p{
+
+.history>p {
     color: #BC8420;
 }
-h3{
+
+h3 {
     color: #BC8420;
 }
-.carte{
+
+.carte {
     background-color: #a39e9e;
 }
-.burger{
+
+.burger {
     display: flex;
     flex-direction: column;
 }
-h2{
+
+h2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-figcaption{
+
+figcaption {
     text-align: center;
     font-style: oblique;
     color: #d9d9d9;
 }
-img:hover{
+
+img:hover {
     opacity: 0.4;
     cursor: grab;
 }
-.panini img{
+
+.panini img {
     width: 95%;
 }
-.resa{
+
+.resa {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #d9d9d9;
     height: 100%;
 }
-.pizza{
+
+.pizza {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-main{
+
+main {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-@media screen and (min-width:768px){
-    .burger{
+
+@media screen and (min-width:768px) {
+    .burger {
         display: flex;
         flex-direction: row;
         text-align: center;
     }
-    .burgertitre{
+
+    .burgertitre {
         align-self: center;
     }
-    .pizza{
+
+    .pizza {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    .pizza img{
+
+    .pizza img {
         width: 110%;
     }
-    .panini{
+
+    .panini {
         display: flex;
         flex-direction: row;
     }
-    .sushi{
+
+    .sushi {
         display: flex;
         flex-direction: row;
     }
+}
+
+#background2 {
+    background-image: url(../img/backgroundfooter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+#background1 {
+    background-image: url(../img/backgroundresavation.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+#contact,
+#reservation {
+    border-radius: 3%;
+    background-color: rgb(248, 248, 248, 0.8);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h1 {
+    margin: 10%;
+    font-size: 200%;
+    font-family: monospace;
+    color: white;
+    text-shadow:
+        1px 1px black,
+        -1px 1px black,
+        1px -1px black,
+        -1px -1px black,
+        1px 1px 5px #555;
+}
+
+form {
+    font-family: monospace;
+    margin: 10%;
+}
+
+
+#message {
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+button {
+    font-family: monospace;
+    background-color: rgb(66, 66, 241);
+    font-size: large;
+    border: 0;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+
+.inlined {
+    width: 45%;
+    margin-left: 1%;
+    display: inline-block;
+    float: left;
+}
+
+
+label {
+    display: block;
+    font-size: 120%;
+    margin: 1%;
+    font-family: monospace;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 95%;
+    margin-bottom: 2%;
+}
+
+input {
+    height: 40px;
+}
+
+hr {
+    border: 1px dotted rgb(53, 53, 53);
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
