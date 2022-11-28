@@ -1,11 +1,11 @@
-* {
-    padding: 0;
-    margin: 0
-}
 
 html,
 body {
     height: 100%;
+    margin: 0
+}
+body{
+    background-color: #a39e9e;
 }
 
 header {
@@ -62,7 +62,10 @@ footer {
     color: #BC8420;
 }
 
-@media screen and (min-width:675px) {
+@media screen and (min-width:768px) {
+    header{
+        height: 8%;
+    }
     .nav {
         display: flex;
         flex-direction: row;
@@ -80,5 +83,89 @@ footer {
     .listmenu>ul {
         gap: 80px;
         margin-right: 50px;
+    }
+}
+
+.uno{
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+}
+.presta>p{
+    color: #BC8420;
+}
+.logoB{
+    display: flex;
+    justify-content: center;
+    cursor: grabbing;
+}
+.history>p{
+    color: #BC8420;
+}
+h3{
+    color: #BC8420;
+}
+.carte{
+    background-color: #a39e9e;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+figcaption{
+    text-align: center;
+    font-style: oblique;
+    color: #d9d9d9;
+}
+img:hover{
+    opacity: 0.4;
+    cursor: grab;
+}
+.panini img{
+    width: 95%;
+}
+.resa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9;
+    height: 100%;
+}
+.pizza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (min-width:768px){
+    .burger{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .burgertitre{
+        align-self: center;
+    }
+    .pizza{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .pizza img{
+        width: 110%;
+    }
+    .panini{
+        display: flex;
+        flex-direction: row;
+    }
+    .sushi{
+        display: flex;
+        flex-direction: row;
     }
 }
