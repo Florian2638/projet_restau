@@ -191,7 +191,7 @@ main {
 }
 
 #background2 {
-    background-image: url(../img/backgroundfooter.jpg);
+    background-image: url(img/backgroundfooter.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -199,7 +199,7 @@ main {
 }
 
 #background1 {
-    background-image: url(../img/backgroundresavation.jpg);
+    background-image: url(img/backgroundresavation.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
