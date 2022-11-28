@@ -1,0 +1,33 @@
+.uno{
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+}
+.presta>p{
+    color: #BC8420;
+}
+.history>p{
+    color: #BC8420;
+}
+h3{
+    color: #BC8420;
+}
+.carte{
+    background-color: #a39e9e;
+}
+.burger{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+img:hover{
+    opacity: 0.5;
+}
+.panini img{
+    width: 95%;
+}
