@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    height: 15%;
+}
+
+main {
+    height: 70%;
+}
+
+footer {
+    height: 15%;
+}
+
+.logo1>img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.logoh1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.listmenu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #141010;
+    color: #BC8420;
+    padding-bottom: 5px;
+}
+
+.titre1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.listmenu ul a {
+    text-decoration: none;
+    color: #BC8420;
+}
+
+@media screen and (min-width:675px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .listmenu {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: end;
+        align-content: space-between;
+    }
+
+    .listmenu>ul {
+        gap: 80px;
+        margin-right: 50px;
+    }
+}
