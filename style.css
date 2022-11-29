@@ -286,3 +286,17 @@ hr {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+#background2 a{
+    display: flex;
+    justify-content: end;
+    margin-top: 40px;
+
+}
+@media screen and (min-width: 768px ) {
+    footer{
+        display: flex;
+    }
+    #background1{
+          width: 50%;
+    }
+}

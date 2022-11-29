@@ -13,6 +13,7 @@
 <body>
     <header>
         <nav>
+            <div id="nav1"></div>
             <div class="nav">
                 <div class="logoh1">
                     <div class="logo1">
@@ -33,7 +34,7 @@
                         <a href="#Contact">
                             <li>Contact</li>
                         </a>
-                        <a href="#Résevation">
+                        <a href="#Réservation">
                             <li>Résevation</li>
                         </a>
                     </ul>
@@ -58,9 +59,9 @@
                 </div>
                 <div class="history">
                     <h3>Notre histoire >></h3>
-                    <p>Fondé par trois artistes aux talents aussi divers qu'incroyables, Burgerstreet est le fruit de
+                    <p>Fondé par trois artistes aux talents aussi divers qu'incroyables, situé place des Jacobins,  Burgerstreet est le fruit de
                         l'amour de la graille et de la passion de la street.
-                        <strong>Mika</strong> jeune entreprenneuse niponne aux grand coeur, elle pétrie vos pains comme
+                        <strong>Mika san</strong> jeune entreprenneuse niponne aux grand coeur, elle pétrie vos pains comme
                         jaja
                         <strong>Flolamenace</strong> retourne vos steacks comme personne, chez lui le coup de poignet
                         est une seconde nature
@@ -207,11 +208,11 @@
     </main>
     <!--main end-->
     <footer>
-        <div id="Résevation"></div>
+        <div id="Réservation"></div>
         <div id="background1">
             
             <div id="reservation" >
-                <h1>RESEVATION</h1>
+                <h1>RESERVATION</h1>
                 <form action="" method="get">
                     <div class="elem-group">
                         <label for="name">Votre nom</label>
@@ -219,18 +220,18 @@
                             pattern=[A-Z\sa-z]{3,20} required>
                     </div>
                     <div class="elem-group">
-                        <label for="email">Vtre E-mail</label>
+                        <label for="email">Votre E-mail</label>
                         <input type="email" id="email" name="visitor_email" placeholder="nom@email.com" required>
                     </div>
                     <div class="elem-group">
-                        <label for="phone">Your Phone</label>
+                        <label for="phone">télephone</label>
                         <input type="tel" id="phone" name="visitor_phone" placeholder="01-2345-6789"
                             pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
                     </div>
                     <hr>
 
                     <div class="elem-group inlined">
-                        <label for="adult">Adults</label>
+                        <label for="adult">Adulte</label>
                         <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
                     </div>
                     <div class="elem-group inlined">
@@ -245,7 +246,7 @@
                     <hr>
                     <div class="elem-group">
                         <label for="">Autre chose?</label>
-                        <textarea id="message" name="visitor_message" placeholder="Ditz-moi!" required></textarea>
+                        <textarea id="message" name="visitor_message" placeholder="Dites-moi!" required></textarea>
                     </div>
                     <button type="submit">Reserver</button>
                 </form>
@@ -259,12 +260,15 @@
             <form action="">
                 <input type="name" name="" placeholder="Nom*" id="" required>
                 <input type="email" name="" placeholder="Email*" id="" required>
-                <input type="tel" name="" placeholder="Tel" id="">
+                <input type="tel" name="" placeholder="Téléphone" id="">
                 <textarea name="" id="message" placeholder="Message" cols="30" rows="10"></textarea>
                 <button>envoyer</button>
             </form>
+
         </div>
+        <a href="#nav1"><img src="img/arrow.png" width="65px" alt=""></a>
     </div>
+
     </footer>
 
 </body>
