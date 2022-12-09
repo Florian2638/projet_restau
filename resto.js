@@ -33,3 +33,12 @@ function panorama(){
     }
     console.log(compteur)
 }
+
+let titre1 = document.querySelector(".burgertitre h2")
+
+    titre1.addEventListener("click",clavique)
+
+function clavique(){
+    titre1.textContent = "bangbang"
+    titre1.style.transform = "rotate(90deg)"
+}
